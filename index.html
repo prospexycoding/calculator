@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROS_CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="welcome-screen">
+        <h3>PROSPEXY CALCULATOR</h3>
+    </div>
+
+    <header>
+        <nav>
+            <a href=""><img src="home.png" alt="" width="25"><span>Home</span></a>
+            <a href=""><img src="about app.png" alt="" width="25"><span>About App</span></a>
+            <a href=""><img src="settings.png" alt="" width="25"><span>Settings</span></a>
+            <a href=""><img src="contact.png" alt="" width="25"><span>Contact Us</span></a>
+        </nav>
+
+
+        <div class="theme-container">
+            <h4>THEME</h4>
+            <span class="theme">
+                <small class="roll"></small>
+            </span>
+        </div>
+       
+
+        <img src="menu.png" alt="" width="25" class="menu">
+
+    </header>
+
+    <main>
+
+        <div class="clock-container">
+            <div class="clock">
+                <div class="time-section">
+                    <span class="hours">00</span> :<span class="minutes">00 </span>: <span class="seconds">00</span>:
+                    <span class="AM">??</span>
+                </div>
+                <div class="date-section">
+                    <span class="day">??</span><span class="month">??</span> <span class="date">??</span> <span class="year">??</span>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div class="container">
+            <div class="input-display">
+                <input type="text" disabled placeholder="0" id="input-show">
+            </div>
+
+            <div class="buttons">
+                <input type="button" value="c" id="clear">
+                <input type="button" value="<" id="delete">
+                <input type="button" class="input-btn" value="/">
+                <input type="button" class="input-btn" value="*">
+
+                <input type="button" class="input-btn" value="7">
+                <input type="button" class="input-btn" value="8">
+                <input type="button" class="input-btn" value="9">
+                <input type="button" class="input-btn" value="-">
+
+                <input type="button" class="input-btn" value="4">
+                <input type="button" class="input-btn" value="5">
+                <input type="button" class="input-btn" value="6">
+                <input type="button" class="input-btn" value="+">
+
+                <input type="button" class="input-btn" value="1">
+                <input type="button" class="input-btn" value="2">
+                <input type="button" class="input-btn" value="3">
+                <input type="button"  value="=" id="equal">
+
+                <input type="button" class="input-btn" value="0" id="zero">
+                <input type="button" class="input-btn" value=".">
+
+            </div>
+        </div>
+
+    </main>
+    
+    
+</body>
+
+<script src="app.js"></script>
+
+
+</html>
